@@ -1,7 +1,19 @@
 {
   "name": "eslint-config-typescript-airbnb-prettier-svelte",
-  "version": "0.0.1",
-  "description": "",
+  "version": "1.0.0",
+  "description": "An eslint configuration that integrates eslint-config-airbnb-base, eslint-config-airbnb-typescript-base, @typescript-eslint/eslint-plugin, eslint-config-prettier and eslint-svelte3",
+  "keywords": [
+    "eslint",
+    "typescript-eslint",
+    "eslint-config-airbnb-base",
+    "eslint-config-airbnb-typescript",
+    "@typescript-eslint/eslint-plugin",
+    "prettier",
+    "prettier-eslint",
+    "sevlte",
+    "eslint-plugin-svelte3",
+    "@ota-meshi/eslint-plugin-svelte"
+  ],
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
