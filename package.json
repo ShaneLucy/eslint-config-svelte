@@ -18,10 +18,13 @@
   "homepage": "https://github.com/ShaneLucy/eslint-config-svelte#readme",
   "dependencies": {
     "eslint-config-typescript-airbnb-prettier": "^1.0.1",
+    "@typescript-eslint/parser": "^4.30.0",
     "@ota-meshi/eslint-plugin-svelte": "^0.10.0"
   },
   "peerDependencies": {
     "eslint-plugin-svelte3": "^3.2.0",
-    "eslint-config-typescript-airbnb-prettier": "^1.0.1"
+    "eslint": "^7.32.0",
+    "prettier": "~2.2.1",
+    "@typescript-eslint/eslint-plugin": "^4.30.0"
   }
 }
