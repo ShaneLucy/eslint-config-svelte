@@ -1,0 +1,27 @@
+{
+  "name": "eslint-config-typescript-airbnb-prettier-svelte",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShaneLucy/eslint-config-svelte.git"
+  },
+  "author": "Shane Lucy",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/ShaneLucy/eslint-config-svelte/issues"
+  },
+  "homepage": "https://github.com/ShaneLucy/eslint-config-svelte#readme",
+  "dependencies": {
+    "eslint-config-typescript-airbnb-prettier": "^1.0.1",
+    "@ota-meshi/eslint-plugin-svelte": "^0.10.0"
+  },
+  "peerDependencies": {
+    "eslint-plugin-svelte3": "^3.2.0",
+    "eslint-config-typescript-airbnb-prettier": "^1.0.1"
+  }
+}
