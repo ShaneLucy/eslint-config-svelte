@@ -6,5 +6,15 @@ module.exports = {
   settings: {
     'svelte3/typescript': () => require('typescript')
   },
+  parserOptions: {
+    sourceType: 'module',
+    ecmaVersion: 12,
+    project: './tsconfig.json'
+  },
+  env: {
+    browser: true,
+    es2021: true,
+    node: true
+  },
 
 }
