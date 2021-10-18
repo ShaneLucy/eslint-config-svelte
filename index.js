@@ -7,7 +7,18 @@ module.exports = {
   ],
   plugins: ["svelte3"],
   ignorePatterns: ["*.cjs, **/*.js"],
-  overrides: [{ files: ["*.svelte"], processor: "svelte3/svelte3" }],
+  overrides: [
+    {
+      files: ["*.svelte"],
+      processor: "svelte3/svelte3",
+      rules: {
+        "import/first": "off",
+        "import/no-duplicates": "off",
+        "import/no-mutable-exports": "off",
+        "import/no-unresolved": "off",
+      },
+    },
+  ],
   settings: {
     "svelte3/typescript": () => require("typescript"),
   },
