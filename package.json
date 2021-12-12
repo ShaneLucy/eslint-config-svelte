@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-typescript-airbnb-prettier-svelte",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "An eslint configuration that integrates eslint-config-airbnb-base, eslint-config-airbnb-typescript-base, @typescript-eslint/eslint-plugin, eslint-config-prettier and eslint-svelte3",
   "keywords": [
     "eslint",
@@ -36,5 +36,9 @@
     "prettier": "~2.2.1",
     "prettier-plugin-svelte": "^2.2.0",
     "@typescript-eslint/eslint-plugin": "^4.30.0"
+  },
+  "engines": {
+    "npm": ">=7.0.0",
+    "node": ">=8.0.0"
   }
 }
